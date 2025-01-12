@@ -1,4 +1,4 @@
-# ROS2 Turtlesim Projects
+# ROS2 Humble Basics
 
 This repository showcases different **ROS2** projects that I worked on using the **Turtlesim** simulator. The projects demonstrate basic functionalities and control techniques with ROS2.
 
@@ -55,3 +55,21 @@ This file subscribes to the turtle's pose topic and logs its current x and y coo
 This file controls the turtle’s movement based on its position. The turtle adjusts its trajectory when it nears the boundaries and changes its pen color based on crossing a certain x-coordinate.
 
 ---
+
+## **URDF and TF: Custom Robot Model**
+
+This repository also includes a custom URDF (Unified Robot Description Format) model for a simple robot, as well as a TF (Transform Frames) visualization. 
+
+### **URDF Robot Description**
+- **Components:** The robot includes a cuboid body, two wheels, a caster wheel, and a LiDAR mounted on top.  
+- **Visualization:** The URDF model can be visualized in RViz. Below are two views of the model in RViz:
+
+<img src="images/urdf_robot_model_rviz.png" alt="URDF Robot Model in RViz" width="400">  
+<img src="images/urdf_robot_model_rviz2.png" alt="URDF Robot Model in RViz 2" width="400">  
+
+---
+
+### **TF Visualization**
+The TF frames show the hierarchical structure of the robot's components. This visualization is useful for understanding how different parts are spatially related.  
+
+<img src="images/urdf_robot_model_tf.png" alt="TF Visualization" width="600">  
