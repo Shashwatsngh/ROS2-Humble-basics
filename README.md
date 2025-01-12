@@ -72,6 +72,7 @@ This repository also includes a custom URDF (Unified Robot Description Format) m
 ### **TF Visualization**
 The TF frames show the hierarchical structure of the robot's components. This visualization is useful for understanding how different parts are spatially related.  
 
-<img src="images/urdf_robot_model_tf.png" alt="TF Visualization" width="600">  
+![TF Visualization](images/urdf_robot_model_tf.png)
+
 
 ---
