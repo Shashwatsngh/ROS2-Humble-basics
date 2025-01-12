@@ -40,7 +40,7 @@ This project demonstrates the implementation of **ROS2 Actions** to perform a co
 
 Below is an example image showing the output of the ROS2 Actions:
 
-![ROS2 Actions](ROS2-Humble-basics/images/Ros2_actions.png)
+![ROS2 Actions](images/Ros2_actions.png)
 
 ---
 
