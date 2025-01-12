@@ -1,38 +1,57 @@
-ROS 2 Workspace: TurtleSim Control
-Overview
+# ROS2 Turtlesim Projects
 
-This repository contains a ROS 2 workspace with various nodes written in Python to interact with the turtlesim simulation. The nodes are designed to publish commands, subscribe to topics, and utilize services to control the turtle's behavior.
+This repository showcases different **ROS2** projects that I worked on using the **Turtlesim** simulator. The projects demonstrate basic functionalities and control techniques with ROS2.
 
-Node Descriptions
+---
 
-draw_circle.py
-        Purpose: Publishes velocity commands to make the turtle move in a circular path.
-        Topics Published:
-            /turtle1/cmd_vel (geometry_msgs/Twist): Sends linear and angular velocities.
-        Key Features:
-            Publishes commands at regular intervals to maintain a circular motion.
+## **Projects and Videos**
 
-my_first_node.py
-        Purpose: A basic example node that logs a counter value at regular intervals.
-        Key Features:
-            Demonstrates simple ROS 2 node structure and timer usage.
-            Logs incrementing counter values to the console.
+### **1. ROS2 Service Basics Using Turtlesim (Pen Changes Colour When Passing the Centerline)**
 
-pose_subscriber.py
-        Purpose: Subscribes to the turtle's pose and logs its position.
-        Topics Subscribed:
-            /turtle1/pose (turtlesim/Pose): Receives the turtle's pose information (x, y, orientation).
-        Key Features:
-            Logs the turtle's position (x, y) whenever it changes.
+This project demonstrates the use of a **ROS2 service** to change the turtle's pen color when it crosses the centerline of the Turtlesim window. The pen turns red as the turtle crosses the centerline and blue as it returns.
 
-turtle_controller.py
-        Purpose: Combines subscription, publication, and service usage to control the turtle's movement and pen color dynamically.
-        Topics Published:
-            /turtle1/cmd_vel (geometry_msgs/Twist): Controls turtle's speed and direction.
-        Topics Subscribed:
-            /turtle1/pose (turtlesim/Pose): Monitors turtle's position.
-        Services Used:
-            /turtle1/set_pen (turtlesim/srv/SetPen): Changes the turtle's pen color dynamically.
-        Key Features:
-            Adjusts velocity based on the turtle's position.
-            Changes pen color between red and blue when crossing x = 5.5.
+[![Watch the video](https://img.youtube.com/vi/PlLu4rXfTjE/0.jpg)](https://www.youtube.com/watch?v=PlLu4rXfTjE)
+
+---
+
+### **2. ROS2 Humble Draw Circle with Turtlesim**
+
+This project shows how to command the turtle to draw a circle using **ROS2**. It publishes velocity commands that make the turtle move in a circular path.
+
+[![Watch the video](https://img.youtube.com/vi/NjtXWxMJvs0/0.jpg)](https://youtu.be/NjtXWxMJvs0?si=ge2xAxgkIcD4_bz5)
+
+---
+
+### **3. ROS2 Humble Closed Loop Turtlesim (Turtle Never Crosses the Walls and Changes Trajectory)**
+
+In this project, the turtle moves in such a way that it never crosses the boundaries of the Turtlesim window. A **closed-loop control** mechanism adjusts its trajectory to avoid collisions with the walls.
+
+[![Watch the video](https://img.youtube.com/vi/k-R5tH_NORE/0.jpg)](https://youtu.be/k-R5tH_NORE?si=jdxb5JWMXkfDjP5s)
+
+---
+
+## **Explanation of Python Files**
+
+### **draw_circle.py**
+
+This file contains a ROS2 node that sends velocity commands to the turtle, making it move in a circular path using linear and angular velocities.
+
+---
+
+### **my_first_node.py**
+
+This file demonstrates a simple ROS2 node that logs a counter value every second. It introduces basic functionality of creating and handling timers in ROS2.
+
+---
+
+### **pose_subscriber.py**
+
+This file subscribes to the turtle's pose topic and logs its current x and y coordinates. It helps demonstrate the subscription mechanism in ROS2.
+
+---
+
+### **turtle_controller.py**
+
+This file controls the turtle’s movement based on its position. The turtle adjusts its trajectory when it nears the boundaries and changes its pen color based on crossing a certain x-coordinate.
+
+---
