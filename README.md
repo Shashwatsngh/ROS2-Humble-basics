@@ -30,6 +30,20 @@ In this project, the turtle moves in such a way that it never crosses the bounda
 
 ---
 
+### **4. ROS2 Actions: Count Until Example**
+
+This project demonstrates the implementation of **ROS2 Actions** to perform a counting task. The action server counts up to a target number at a specified interval and provides feedback during execution. The client sends a goal with the target number and interval and receives the result when the task is completed.
+
+**Key Features:**
+- **Action Server:** Handles the counting process and sends periodic feedback.
+- **Action Client:** Sends goals and retrieves results.
+
+Below is an example image showing the output of the ROS2 Actions:
+
+![ROS2 Actions](ROS2-Humble-basics/images/Ros2_actions.png)
+
+---
+
 ## **Explanation of Python Files**
 
 ### **draw_circle.py**
@@ -73,6 +87,3 @@ This repository also includes a custom URDF (Unified Robot Description Format) m
 The TF frames show the hierarchical structure of the robot's components. This visualization is useful for understanding how different parts are spatially related.  
 
 ![TF Visualization](images/urdf_robot_model_tf.png)
-
-
----
