@@ -95,4 +95,8 @@ The TF frames show the hierarchical structure of the robot's components. This vi
 Using Nav2 with TurtleBot3 in Gazebo, I created a map and navigated the robot through RViz. This involved setting waypoints and assigning multiple Nav2 goals to create a path. Alternatively, navigation was achieved by setting start and goal poses directly through RViz.
 
 [![Using Waypoints for Navigation](https://img.youtube.com/vi/fGP2K6x5iwY/0.jpg)](https://youtu.be/fGP2K6x5iwY?si=p-KXttSgcsBvx81T)
+
+
+\n\n
+
 [![Nav2 Goals](https://img.youtube.com/vi/34-6_wRtC1s/0.jpg)](https://youtu.be/34-6_wRtC1s?si=K3PvO4SnKQo5a1tz) 
