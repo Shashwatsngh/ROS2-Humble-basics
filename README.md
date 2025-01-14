@@ -96,7 +96,4 @@ Using Nav2 with TurtleBot3 in Gazebo, I created a map and navigated the robot th
 
 [![Using Waypoints for Navigation](https://img.youtube.com/vi/fGP2K6x5iwY/0.jpg)](https://youtu.be/fGP2K6x5iwY?si=p-KXttSgcsBvx81T)
 
-
-\n\n
-
 [![Nav2 Goals](https://img.youtube.com/vi/34-6_wRtC1s/0.jpg)](https://youtu.be/34-6_wRtC1s?si=K3PvO4SnKQo5a1tz) 
