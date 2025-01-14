@@ -70,7 +70,7 @@ This file controls the turtle’s movement based on its position. The turtle adj
 
 ---
 
-## **URDF and TF: Custom Robot Model**
+## **4. URDF and TF: Custom Robot Model**
 
 This repository also includes a custom URDF (Unified Robot Description Format) model for a simple robot, as well as a TF (Transform Frames) visualization. 
 
@@ -83,7 +83,7 @@ This repository also includes a custom URDF (Unified Robot Description Format) m
 
 ---
 
-### **TF Visualization**
+### **5. TF Visualization**
 The TF frames show the hierarchical structure of the robot's components. This visualization is useful for understanding how different parts are spatially related.  
 
 ![TF Visualization](images/urdf_robot_model_tf.png)
@@ -91,7 +91,7 @@ The TF frames show the hierarchical structure of the robot's components. This vi
 
 ---
 
-### **Generating Maps and Navigating Turtlebot3 using Nav2**
+### **6.Generating Maps and Navigating Turtlebot3 using Nav2**
 Using Nav2 with TurtleBot3 in Gazebo, I created a map and navigated the robot through RViz. This involved setting waypoints and assigning multiple Nav2 goals to create a path. Alternatively, navigation was achieved by setting start and goal poses directly through RViz.
 
 [![Using Waypoints for Navigation](https://img.youtube.com/vi/fGP2K6x5iwY/0.jpg)](https://youtu.be/fGP2K6x5iwY?si=p-KXttSgcsBvx81T)
