@@ -87,3 +87,13 @@ This repository also includes a custom URDF (Unified Robot Description Format) m
 The TF frames show the hierarchical structure of the robot's components. This visualization is useful for understanding how different parts are spatially related.  
 
 ![TF Visualization](images/urdf_robot_model_tf.png)
+
+
+---
+
+### **Generating Maps and Navigating Turtlebot3 using Nav2**
+Using Nav2 with TurtleBot3 in Gazebo, I created a map and navigated the robot through RViz. This involved setting waypoints and assigning multiple Nav2 goals to create a path. Alternatively, navigation was achieved by setting start and goal poses directly through RViz.
+
+![Nav2 Waypoint]([images/urdf_robot_model_tf.png](https://youtu.be/fGP2K6x5iwY?si=p-KXttSgcsBvx81T))
+
+![Nav2 Goal]([images/urdf_robot_model_tf.png](https://youtu.be/34-6_wRtC1s?si=K3PvO4SnKQo5a1tz))
